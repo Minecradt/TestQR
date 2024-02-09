@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+
+</head>
+<body>
+  <div class="lol">
+  <h1>Sign Up</h1>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" maxlength=99 minlength=1><br><br>
+  <button onclick="signup()">Sign Up</button>
+  <p>Use this QR Code to sign in using a device that is logged in
+  Or use the URL</p>
+  <iframe class="qrcode" width=512 height=512></iframe>
+  </div>
+  <div class="welcomer" hidden>
+    <h1><b class="welcome"></b></h1>
+  </div>
+  <script src="signup.js"></script>
+
+</body>
+</html>

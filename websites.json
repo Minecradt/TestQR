@@ -1,0 +1,13 @@
+{
+  "websites":{
+    "/":"index.html",
+    "/qr":"qr.html",
+    "/loginemail":"login.html",
+    "/signup.js":"signup.js",
+    "/tokens.txt":"tokens.txt",
+    "/qrcode":"qrcode.html"
+  },
+  "special":{
+    "/addhash":""
+  }
+}
